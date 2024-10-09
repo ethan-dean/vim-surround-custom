@@ -616,7 +616,7 @@ if !exists("g:surround_no_mappings") || ! g:surround_no_mappings
   nmap yss <Plug>Yssurround
   nmap ySs <Plug>YSsurround
   nmap ySS <Plug>YSsurround
-  xmap S   <Plug>VSurround
+"  xmap S   <Plug>VSurround
   xmap gS  <Plug>VgSurround
   if !exists("g:surround_no_insert_mappings") || ! g:surround_no_insert_mappings
     if !hasmapto("<Plug>Isurround","i") && "" == mapcheck("<C-S>","i")
